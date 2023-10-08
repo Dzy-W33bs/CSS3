@@ -1,0 +1,52 @@
+body{
+    padding: 50px;
+}
+pre {
+    font-size: 18px;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+}
+.scale:hover {
+    transform: scale(2,.5);
+    transition: 1s;
+}
+.rotate:hover{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.rotateX:hover{
+    transform: rotateX(180deg);
+    transition: 1s;
+}
+.rotateY:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.rotatecampur:hover{
+    transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+    transition: 1s;
+}
+.skew:hover{
+    transform: skew(180deg);
+    transition: 1s;
+}
+.skewY:hover{
+    transform: skewY(60deg);
+    transition: 1s;
+}
+.translate:hover{
+    transform: translate(100px);
+    transition: 1s;
+}
+.translatecampur:hover{
+    transform: translate(400px, -200px);
+    transition: 1s;
+}
+.end:hover {
+    transform: translate(100px, 100px) scale(2) rotateX(90deg);
+    transition: 1s;
+}

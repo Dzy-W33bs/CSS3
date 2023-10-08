@@ -1,0 +1,96 @@
+body{
+    padding: 30px;
+}
+pre{
+    font-size: 20px;
+    text-align: center;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 10px auto; 
+    text-align: center;
+    line-height: 200px;
+}
+.satu:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.dua:hover {
+    transform: rotate(360deg);
+    transition: 5s;
+}
+.property:hover {
+    transform: rotateX(180deg);
+    background-color: red;
+    border-radius: 50%;
+    transition: 1s;
+    filter: blur(10px);
+}
+.fungsi {
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    border: 3px solid red;
+    text-align: center;
+    line-height: 100px;
+} 
+.fungsi div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 10px;
+}
+.fungsi:hover .ease {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+    transition: 2s ease;
+}
+.fungsi:hover .ease-in {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+    transition: 2s ease-in;
+}
+.fungsi:hover .ease-out {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+    transition: 2s ease-out;
+}
+.fungsi:hover .ease-in-out {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+    transition: 2s ease-in-out;
+}
+.fungsi:hover .linear {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+    transition: 2s linear;
+}
+.fungsi .cubic-bezier {
+    transition: 2s cubic-bezier(0.66,-0.51, 0.41, 1.63);
+}
+.fungsi:hover .cubic-bezier {
+    margin-left: 700px;
+    transform: rotate(720deg);
+    background-color: yellow;
+}
+.delay:hover {
+    transition:3s 2s;
+    transform: rotateX(360deg);
+    background-color: red;
+    border-radius: 50%;
+}
+.end:hover {
+    transition:transform 3s, border-radius 1s 3s, background-color 2s 3s, filter 2s 4s;
+    transform: rotateX(360deg);
+    background-color: red;
+    border-radius: 50%;
+    background-size: cover;
+    filter: blur(10px);
+}

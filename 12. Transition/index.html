@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>transition</h1>
+    <p>properti <b>transition </b>memungkinkan kita dapat mengubah nilai dari property HTML <b>secata halus</b></p>
+    <p>perbadaan dari property transition dan animation yaitu kalau transition <b>hanya ada dua keadaan, yaitu keadaan awal dan akhir</b></p>
+    <p>transition disimpan di keadaan awal/bukan pada keadaan akhir (misal hover)</p>
+    <br>
+    <pre>transition: property <b><u>durasi</u></b>(ini wajib ada) fungsi delay</pre>
+    <hr>
+    <h2>durasi</h2>
+    <p>s/ms</p>
+    <p>kalau ingin mengubah element HTML dari kondisi awal ke akhir ingin berapa lama</p>
+    <div class="satu">1s</div>
+    <div class="dua">5s</div>
+    <hr>
+    <h2>property</h2>
+    <p>menentukan properti apa saja yang akan dikenai transisi</p>
+    <div class="property"></div>
+    <hr>
+    <h2>fungsi</h2>
+    <p>fungsi transisi/timing function</p>
+    <p>timing-function</p>
+    <ul>
+        <li>ease</li>
+        <li>ease-in</li>
+        <li>ease-out</li>
+        <li>ease-in-out</li>
+        <li>linear</li>
+        <li>cubic-bezier (w,x,y,z) -> bisa menggunakan ispect sebagai bantuan (lihat unpas pes transition part 2)</li>
+        <div class="fungsi">
+            <div class="ease">ease</div>
+            <div class="ease-in">ease-in</div>
+            <div class="ease-out">ease-out</div>
+            <div class="ease-in-out">ease-in-out</div>
+            <div class="linear">linear</div>
+            <div class="cubic-bezier">cubic-bezier</div>
+        </div>
+    </ul>
+    <hr>
+    <h2>delay</h2>
+    <p>angka setelah durasi. misal 3s 2s (maka delaynya adalah 2s)</p>
+    <p>artinya tunggu dulu 2s (delay) sebelum melakukan transisi selama 3s</p>
+    <div class="delay">delay 2s</div>
+    <p>delay bisa digunakan untk multiple transtion</p>
+    <div class="end"></div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+pre {
+    font-size: 18px;
+    font-weight: bold;
+}
+div {
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    background-image: url(img.png);
+    background-size: cover;
+}
+.original {
+
+}
+.blur {
+    filter: blur(5px);
+}
+.brightnes {
+    filter: brightness(200%);
+}
+.contrast {
+    filter: contrast(200%);
+}
+.saturate {
+    filter: saturate(200%);
+}
+.grayscale {
+    filter: grayscale(100%);
+}
+.grayscale {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.hue-rotate {
+    filter: hue-rotate(230deg);
+}
+.invert {
+    filter: invert(100%);
+}
+.shadow{
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-image: url(ganabatte-removebg-preview.png);
+    filter: drop-shadow(10px 10px 10px red);
+    margin: 20px auto;
+}
+.tumpuk{
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    filter: invert(100%) blur(10px);
+    margin: 20px auto;
+}
+
+

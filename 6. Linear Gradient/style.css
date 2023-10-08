@@ -1,0 +1,19 @@
+.rumus{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+div {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+}
+.satu{
+    background-image: linear-gradient(red, green, blue);
+}
+.dua{
+    background-image: linear-gradient(to left bottom, red, rgb(255, 255, 0, 30%), purple, blue);
+}
+.tiga{
+    background-image: linear-gradient(to left, blue 10%, red 50%);
+}

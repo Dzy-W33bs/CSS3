@@ -1,0 +1,16 @@
+.rumus{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+div {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.satu{
+    background-image: radial-gradient(red, green, blue);
+}
+.dua {
+    background-image: radial-gradient(circle farthest-corner at top left, red, skyblue, maroon);
+}

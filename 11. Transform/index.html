@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>transform</h1>
+    <p>properti <b>transform </b>memungkinkan kita dapat <b>memanipulasi format visual </b>dari elemen HTML</p>
+    <p>fungsi transform</p>
+    <ul>
+        <li><b>scale </b>memperbesar/memperkecil</li>
+        <li><b>rotate </b>memutar</li>
+        <li><b>skew </b>membuat condong/miring</li>
+        <li><b>translate </b>mengubah posisi</li>
+    </ul>
+    <pre>
+                scale (angka), scaleX (angka), scaleY(angka) 
+		rotate (deg), rotateX (deg), rotateY(deg) 
+		skew(deg), skewX (deg), skewY (deg) 
+		translate(px), translateX(px), translate(px)	
+    </pre>
+    <p>akan kuberikan contoh berupa hover+transition agar mudah dilihat</p>
+    <hr>
+    <h2>scale</h2>
+    <p>transform: scale(2,.5); <i>dibaca: perbesar sumbu x 2 kali lipat, perbesar sumbu y sebesar 0,5 kali lipat</i></p>
+    <div class="scale"></div>
+    <hr>
+    <h2>rotate</h2>
+    <p>transform: rotate(180deg);</p>
+    <div class="rotate"></div>
+    <p>transform: rotateX(180deg);</p>
+    <div class="rotateX"></div>
+    <p>transform: rotateY(180deg);</p>
+    <div class="rotateY"></div>
+    <p><strong>semuanya bisa digabung</strong></p>
+    <p>transform: rotate(180deg) rotateX(180deg) rotateY(180deg);</p>
+    <div class="rotatecampur"></div>
+    <hr>
+    <h2>skew</h2>
+    <p>skew = skew x</p>
+    <p>transform: skew(180deg);</p>
+    <div class="skew"></div>
+    <p>transform: skewY(60deg)</p>
+    <div class="skewY"></div>
+    <hr>
+    <h2>translate</h2>
+    <p>transform: translate(100px);</p>
+    <div class="translate"></div>
+    <p>transform: translate(400px, -200px);</p>
+    <div class="translatecampur"></div>
+    <p>apa bedanya dengan position absolut?    </p>
+    <p>efek yang dihasilkan sama saja tetapi <strong>menggunakan translate performanya jauh lebih baik daripada menggunakan position</strong></p>
+    <hr>
+    <h2>properti transform bisaa diitumpuk</h2>
+    <div class="end"></div>
+</body>
+</html>

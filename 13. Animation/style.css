@@ -1,0 +1,70 @@
+body {
+    padding: 20px;
+    height: 4000px;
+}
+.gambar {
+    margin: auto;
+    background-size: cover;
+    width: 800px;
+    height: 450px;
+    background-image: url(Screenshot\ \(65\).png) ;
+}
+pre {
+    font-size: 18px;
+}
+.bungkus {
+    border: 3px solid black;
+    width: 1000px;
+    height: 450px;
+}
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: maroon;
+    margin: 20px;
+    position: absolute;
+    animation: animasi 5s ease-in-out alternate infinite;
+}
+@keyframes animasi {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+    20% {
+        transform: translate(500px);
+    }
+    40% {
+        transform: translate(500px, 300px);
+    }
+    60% {
+        transform: translate(200px, 300px) rotate(720deg);
+        background-color: blue;
+    }
+    100% {
+        transform: translate(800px, 300px) rotateX(90deg) scale(1.5);
+        border-radius: 50%;
+    }
+}
+.rumus {
+    color: red;
+    font: 20px/30px red arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>animation</h1>
+    <div class="gambar"></div>
+    <p>untuk membuat keyframe sama dengan membuat @font-family</p>
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th style="text-align: center;">kondisi haanya 2</th>
+                <th style="text-align: center;">kondisi lebih dari 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <pre>
+                        @keyframes [name] {
+                            from {
+                                [property-css]
+                            }
+                            to {
+                                [property-css]
+                            }
+                        }
+                    </pre>
+                </td>
+                <td>
+                    <pre>
+                        @keyframes [name] {
+                            0% {
+                                [property-css]
+                            }
+                            n% {
+                                [property-css]
+                            }
+                            100% {
+                                [property-css]
+                            }
+                        }
+                    </pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>with hover    -> animasi terjadi saat kursor berada di element</p>
+    <p>without hover -> animasi terjadi saat pertama kali membuka halaman atau saat halaman direfresh</p>
+    <div class="bungkus">
+        <div class="first"></div>
+    </div>
+    <pre class="rumus">
+        animation:
+        <b>[name]</b> <b>[duration]</b> [timing-function]
+        [delay] [iteration-count] [direction] 
+        [fill-mode] [play-state]
+    </pre>
+    <hr>
+    <h2>[name]</h2>
+    <p>bersifat wajib</p>
+    <p>harus sesuai dengan nama animasi yang ada di keyframe</p>
+    <hr>
+    <h2>[doration]</h2>
+    <p>bersifat wajib</p>
+    <p>durasi animasinya</p>
+    <p>sama saja dengan yang di transisi</p>
+    <hr>
+    <h2>[timing-function]</h2>
+    <p>sama saja dengan yang di transisi</p>
+    <p>itu yang ease, ease-in, linear, dll</p>
+    <hr>
+    <h2>[delay]</h2>
+    <p>sama saja dengan yang di transisi</p>
+    <hr>
+    <h2>[iteration-count]</h2>
+    <p>untuk menentukan animasinya ingin diulang berapa kali</p>
+    <p>iterarion count:</p>
+    <ul>
+        <li>(angka)  -> defaultnya 1</li>
+        <li>infinite</li>
+    </ul>
+    <hr>
+    <h2>[direction]</h2>
+    <p>untuk menentukan animasinya dimulai dari mana</p>
+    <ul>
+        <li>normal (default)  ==> dari awal ke akhir</li>
+        <li>reverse  ==> dari akhir ke awal</li>
+        <li>alternate  ==> dari awal ke akhir kemudian dari akhir ke awal / bolak balik</li>
+        <li>alternate-reverse  ==> dari akhir ke awak kemudian dari awal ke akhir / bolak balik</li>
+    </ul>
+    <hr>
+    <h2>[fill-mode]</h2>
+    <p>menentukan akhir dari transisinya seperti apa</p>
+    <ul>
+        <li>none</li>
+        <li>forwards -> jika ingin animasinya tidak langsung loncat ke posisi awal</li>
+        <li>backwards</li>
+        <li>both</li>
+    </ul>
+    <hr>
+    <h2>[play-state]</h2>
+    <ul>
+        <p>play-stated</p>
+        <li>running</li>
+        <li>paused -> animasinya berhenti (biasanya digunakan dengan javasripct)</li>
+    </ul>
+</body>
+</html>

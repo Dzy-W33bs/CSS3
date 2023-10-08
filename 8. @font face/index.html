@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font face</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>@font-face</h1>
+    <p>@font-face digunakan untuk mengubah font</p>
+    <p>caranya:</p>
+    <ol>
+        <li>kalian harus punya dulu fontnya</li>
+        <li>simpan di folder website</li>
+        <li>di css <b>paling atas </b>tulis syntaxnya</li>
+    </ol>
+    <p>syntax</p>
+    <pre>
+        @font-face {
+            font-family: 'nama font baru';
+            src: url('folder/fontbaru.eot');
+            src: url('folder/fontbaru.eot?#iefix') format('embedded-opentype'),
+            url('folder/fontbaru.woff2') format('woff2'),
+            url('folder/fontbaru.woff') format('woff'),
+            url('folder/fontbaru.ttf') format('truetype'),
+            url('folder/fontbaru.svg#svgFontName') format('svg'),
+        }
+    </pre>
+    <p>yang paling bagus untuk web adalah font type <b>woff</b> dan <b>woff2</b></p>
+    <p><b>woff2 </b>dan <b>woff </b>digunakan bersamaan dengan woff2 terlebih dahulu</p>
+    <p>font tipe ttf dan otf bisa diubah ke <b>woff</b> dan <b>woff2</b></p>
+    <p>tempat rekomended download font dan ubah ttf/otf ke woff dan woff2: <a href="https://www.fontsquirrel.com/" target="_blank">fontsquirrel.com</a></p>
+    <div>
+        <h2>DzakyWeebs</h2>
+    </div>
+</body>
+</html>
