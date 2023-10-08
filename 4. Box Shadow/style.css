@@ -1,0 +1,88 @@
+.continer {
+    width: 600px;
+    margin: auto;
+    border: 3px solid black;
+    padding: 15px;
+}
+.continer div {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: blueviolet;
+}
+.satu {
+    box-shadow: 20px 0 20px rgb(9, 9, 9, 80%);
+}
+div .box {
+    font-size: 11px;
+    text-align: center;
+    line-height: 200px;
+}
+hr {
+    margin-right: -15px;
+    margin-left: -15px;
+    color: red;
+}
+.dua {
+    box-shadow: 20px 0 0 rgb(9, 9, 9, 80%);
+}
+.dua p {
+    text-align: center;
+    line-height: 200px;
+    font-size: 11px;
+}
+.rumus {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.tiga {
+    box-shadow: 20px 0 0 10px rgb(9, 9, 9, 80%);
+}
+.tiga p {
+    text-align: center;
+    line-height: 200px;
+    font-size: 9px;
+}
+.mintiga p {
+    text-align: center;
+    line-height: 200px;
+    font-size: 9px;
+}
+.mintiga {
+    box-shadow: 20px 0 10px -10px rgb(9, 9, 9, 80%);
+}
+.empat {
+    border: 3px solid red;
+    box-shadow: inset -20px 0 20px rgb(9, 9, 9, 80%);
+}
+.empat p{
+    text-align: center;
+    line-height: 200px;
+    font-size: 9px;
+}
+.lima {
+    box-shadow: 10px 10px 10px black, 
+    -10px -10px 10px red;
+}
+.enam {
+    box-shadow: 0 0 0 5px black,
+    0 0 0 10px red,
+    0 0 0 15px yellow,
+    0 0 0 20px green;
+    border-radius: 50%;
+}
+.tujuh {
+    box-shadow: 0 0 0 5px black,
+    0 0 0 10px red,
+    0 0 0 15px yellow,
+    0 0 0 20px green;
+    border-radius: 50%;
+}
+.tujuh:hover {
+    box-shadow: 0 0 0 5px black,
+    0 0 0 10px red,
+    0 0 0 15px yellow,
+    0 0 0 20px green;
+    border-radius: 20%;
+}

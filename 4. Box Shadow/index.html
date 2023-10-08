@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documbox shadowent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <p>Box Shadow digunakan untuk mengatur bayangan pada sebuah box</p>
+        <p>dibwah ini yang wjib</p>
+        <ul>
+            <li>x-offset -> mengatur jarak bayangan smbu x</li>
+            <li>y-offset -> mengatur jarak bayangan smbu y</li>
+            <li>blur -> mengatur tingkat blur</li>
+            <li>color -> mengatur twarna (biasa menggunakan opacity dengan RGBa)</li>
+        </ul>
+        <p class="rumus">box-shadow: (x-offset) (y-offset) (blur) (color)</p>
+        <div class="satu">
+            <p class="box">box-shadow: 20px 0 20px rgb(9, 9, 9, 80%)</p>
+        </div>
+        <hr>
+        <h1>Optional</h1>
+        <h2>(spread)</h2>
+        <p>spread untuk menambah ukuran dari shadow</p>
+        <p class="rumus">box-shadow: (x-offset) (y-offset) (blur) (spread) (color)</p>
+        <div class="dua">
+            <p> box-shadow: 20px 0 0 rgb(9, 9, 9, 80%);</p>
+        </div>
+        <div class="tiga">
+            <p>box-shadow: 20px 0 0 10px rgb(9, 9, 9, 80%);</p>
+        </div>
+        <p>nilai spread bisa negatif (membuat bayangan lebih kecil dari shadow)</p>
+        <div class="mintiga">
+            <p>box-shadow: 20px 0 10px -10px rgb(9, 9, 9, 80%);</p>
+        </div>
+        <h2>(inset)</h2>
+        <p>inset membuat bayangan ada di dalam elemen </p>
+        <p class="rumus">box-shadow: (inset) (x-offset) (y-offset) (blur) (color)</p>
+        <div class="empat">
+            <p>box-shadow: inset -20px 0 20px rgb(9, 9, 9, 80%);</p>
+        </div>
+        <hr>
+        <h2>multiple shadow</h2>
+        <p>kita bisa memberikan lebih dari satu bayangan dalam sebuah element</p>
+        <p class="rumus">box-shadow: (x-offset) (y-offset) (blur) (color), (x-offset) (y-offset) (blur) (color), dst</p>
+        <div class="lima"></div>
+        <p>kita juga bisa membuat layaknya border yang bertumpuk tumpuk</p>
+        <div class="enam"></div>
+        <p>semua bisa digabung dengan hover</p>
+        <div class="tujuh"></div> 
+    </div>
+</body>
+</html>

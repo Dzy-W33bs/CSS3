@@ -1,0 +1,16 @@
+p   {
+    text-align: center;
+    font-size: 18px;
+}
+.rumus {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px rebeccapurple,
+    -5px -5px 5px red;
+    font-family: arial;
+}
